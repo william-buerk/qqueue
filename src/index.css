@@ -1,13 +1,76 @@
+html,
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	padding: 0;
+	background-color: rgb(224, 224, 224);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.RoomCode {
+	position: absolute;
+	left: 10px;
+}
+
+.Username {
+	position: absolute;
+	right: 10px;
+}
+
+.RoomHeader {
+	position: sticky;
+	top: 0px;
+	height: 40px;
+	background-color: rgb(255, 169, 41);
+	z-index: 3;
+}
+
+.CodeAndName {
+	position: relative;
+	top: 10px;
+}
+
+.QuestionList {
+	position: relative;
+	margin: auto;
+	margin-bottom: 100px;
+	left: -15px;
+}
+
+.Question {
+	width: 95%;
+	height: fit-content;
+	padding: 5px;
+	line-height: 20px;
+	background-color: rgb(60, 193, 255);
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	display: inline-block;
+	overflow-wrap: break-word;
+}
+
+.QuestionInput {
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	padding: 20px;
+	background-color: rgb(255, 80, 80);
+}
+
+.InputBox {
+	padding: 3px;
+	margin-right: 5px;
+	width: 90%;
+}
+
+.InputBoxAndSubmit {
+	width: 90%;
+}
+
+.SortButton {
+	position: absolute;
+	left: 45%;
+	display: inline;
+	margin: auto;
+	padding-left: 10px;
+	padding-right: 10px;
 }
